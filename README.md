@@ -36,4 +36,4 @@ copy the 3 files SSLHELPER.bat | openssl.exe | openssl.conf from this folder int
 NOTE: you dont need administrator priviledges to run the batch file, even in a domain joined PC.
 
 ISSUES/FEEDBACK/FORK/PULL:
-Feel free to relay back on any feedback, issues, fork or pull request.
+Feel free to relay back on any feedback, issues, fork or pull request. 
