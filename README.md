@@ -1,7 +1,30 @@
 <h1 align="center">📝 SSL HELPER 📝</h1>
 <h3 align="center">SSL CONVERTER AND GENERATOR BATCH SCRIPT</h3>
                                                
+```bash
 
+#   _______  _______  _                                  
+#  (  ____ \(  ____ \( \                                 
+#  | (    \/| (    \/| (                                 
+#  | (_____ | (_____ | |                                 
+#  (_____  )(_____  )| |                                 
+#        ) |      ) || |                                 
+#  /\____) |/\____) || (____/\                           
+#  \_______)\_______)(_______/                           
+#                                                        
+#            _______  _        _______  _______  _______ 
+#  |\     /|(  ____ \( \      (  ____ )(  ____ \(  ____ )
+#  | )   ( || (    \/| (      | (    )|| (    \/| (    )|
+#  | (___) || (__    | |      | (____)|| (__    | (____)|
+#  |  ___  ||  __)   | |      |  _____)|  __)   |     __)
+#  | (   ) || (      | |      | (      | (      | (\ (   
+#  | )   ( || (____/\| (____/\| )      | (____/\| ) \ \__
+#  |/     \|(_______/(_______/|/       (_______/|/   \__/
+#                                                 
+
+
+
+```
 
 
 # ABOUT
@@ -12,11 +35,11 @@ so no need to remember all the openssl codes anymore.
 
 ## Dependencies
 
-This script leverages on openssl executable, if you have openssl in your environment variable you are good to go.
-But for those that dont, openssl is included in this package. for any reason the script fails to find openssl in your computer's environment variable or in this script's execution folder it will download it before starting provided you have an internet connection and you can reach github.com
+This script leverages on openssl executable, openssl.exe is included in this package. for any reason the script fails to find openssl in this script's execution folder it will download it before starting provided you have an internet connection and you can reach github.com
 
 This script also leverages on openssl.conf file, the file is particularly important if you intent to use the self certification option, the script will as well fetch this config file from its github's repo if it doesnt find it within its working directory.
 
+NOTE: For now it doesnt matter if you have openssl in your environment variable, if its not in the script's working directory, the script would not run.
 
 ```bash
 openssl.exe | openssl.conf
