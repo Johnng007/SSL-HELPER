@@ -1,8 +1,8 @@
-<h1 align="center">Hi 👋, SSL HELPER</h1>
+<h1 align="center">📝 SSL HELPER</h1> 📝
 <h3 align="center">SSL CONVERTER AND GENERATOR BATCH SCRIPT</h3>
 
 
-# SSL HELPER
+# ABOUT
 
 I created this batch script out of the need to automate my team's SSL certificate generation process.
 we choose batch because we needed a lightweight solution. 
