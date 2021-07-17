@@ -55,6 +55,31 @@ git clone https://github.com/Johnng007/SSL-HELPER.git
 SSLHELPER.bat
 ```
 
+
+##Features
+
+CONVERTING FROM PEM
+     1. PEM to DER.
+     2. PEM to P7B.
+     3. PEM TO PFX
+CONVERTING FROM DER
+     4. DER(.CRT .CER .DER) TO PEM.
+     5. DER TO CER.
+CONVERTING FROM P7B
+     6. P7B TO PEM.
+     7. P7B TO PFX.
+     8. P7B TO CER.
+CONVERTING FROM PFX
+     9. PFX TO PEM.
+CONVERTING FROM CER
+    10. CER TO P7B
+    11. CER TO PFX
+    12. CER TO DER
+GENERATE A SELF SIGNED CERTIFICATE
+    13. GENERATE SELF SIGNED
+GENERATE A SELF SIGNED CERTIFICATE AUTO
+    14. GENERATE SELF SIGNED AUTO
+
 ## Contributing
 Pull requests are welcome. For major changes, plea open an issue first to discuss what you would like to change.
 
