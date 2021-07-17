@@ -1,4 +1,4 @@
-<h1 align="center">📝 SSL HELPER</h1> 📝
+<h1 align="center">📝 SSL HELPER 📝</h1>
 <h3 align="center">SSL CONVERTER AND GENERATOR BATCH SCRIPT</h3>
 
 
