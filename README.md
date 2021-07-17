@@ -35,7 +35,7 @@ so no need to remember all the openssl codes anymore.
 
 ## Dependencies
 
-This script leverages on openssl executable, openssl.exe is included in this package. for any reason the script fails to find openssl in this script's execution folder it will download it before starting provided you have an internet connection and you can reach github.com
+This script leverages on openssl executable 'openssl.exe' and it's included in this package. for any reason the script fails to find openssl.exe in its working directory in your PC, it will fetch it from it's github repo, provided you have an internet connection and you can reach github.com
 
 This script also leverages on openssl.conf file, the file is particularly important if you intent to use the self certification option, the script will as well fetch this config file from its github's repo if it doesnt find it within its working directory.
 
@@ -54,6 +54,8 @@ git clone https://github.com/Johnng007/SSL-HELPER.git
 # run SSLHELPER.bat
 SSLHELPER.bat
 ```
+NOTE: you dont need administrator priviledges to run the batch file, even in a domain joined PC.
+
 ## Features
 ```bash
 
@@ -82,7 +84,6 @@ GENERATE A SELF SIGNED CERTIFICATE AUTO
 ## Contributing
 Pull requests are welcome. For major changes, plea open an issue first to discuss what you would like to change.
 
-NOTE: you dont need administrator priviledges to run the batch file, even in a domain joined PC.
 
 ## License
 [MIT](https://mit.com/licenses/mit/)
