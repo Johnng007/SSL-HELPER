@@ -54,9 +54,8 @@ git clone https://github.com/Johnng007/SSL-HELPER.git
 # run SSLHELPER.bat
 SSLHELPER.bat
 ```
-
-```bash
 ##Features
+```bash
 
 CONVERTING FROM PEM
      1. PEM to DER.
