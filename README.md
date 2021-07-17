@@ -55,7 +55,7 @@ git clone https://github.com/Johnng007/SSL-HELPER.git
 SSLHELPER.bat
 ```
 
-
+```bash
 ##Features
 
 CONVERTING FROM PEM
@@ -79,7 +79,7 @@ GENERATE A SELF SIGNED CERTIFICATE
     13. GENERATE SELF SIGNED
 GENERATE A SELF SIGNED CERTIFICATE AUTO
     14. GENERATE SELF SIGNED AUTO
-
+```
 ## Contributing
 Pull requests are welcome. For major changes, plea open an issue first to discuss what you would like to change.
 
