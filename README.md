@@ -62,7 +62,7 @@ NOTE: you dont need administrator priviledges to run the batch file, even in a d
 CONVERTING FROM PEM
      1. PEM to DER.
      2. PEM to P7B.
-     3. PEM TO PFX
+     3. PEM(.PEM .CRT .CER) TO PFX
 CONVERTING FROM DER
      4. DER(.CRT .CER .DER) TO PEM.
      5. DER TO CER.
@@ -72,14 +72,16 @@ CONVERTING FROM P7B
      8. P7B TO CER.
 CONVERTING FROM PFX
      9. PFX TO PEM.
+    10. EXTRACT KEY FILE FROM PFX
+    11. PFX TO CRT
 CONVERTING FROM CER
-    10. CER TO P7B
-    11. CER TO PFX
-    12. CER TO DER
+    12. CER TO P7B
+    13. CER TO PFX
+    14. CER TO DER
 GENERATE A SELF SIGNED CERTIFICATE
-    13. GENERATE SELF SIGNED
+    15. GENERATE SELF SIGNED
 GENERATE A SELF SIGNED CERTIFICATE AUTO
-    14. GENERATE SELF SIGNED AUTO
+    16. GENERATE SELF SIGNED AUTO
 ```
 ## Contributing
 Pull requests are welcome. For major changes, plea open an issue first to discuss what you would like to change.
