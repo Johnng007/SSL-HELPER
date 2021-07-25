@@ -82,6 +82,8 @@ GENERATE A SELF SIGNED CERTIFICATE
     15. GENERATE SELF SIGNED
 GENERATE A SELF SIGNED CERTIFICATE AUTO
     16. GENERATE SELF SIGNED AUTO
+    
+    [--u]Usage  [--h]Help [--update]Update
 ```
 ## Contributing
 Pull requests are welcome. For major changes, plea open an issue first to discuss what you would like to change.
