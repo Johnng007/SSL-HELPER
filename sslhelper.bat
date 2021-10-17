@@ -982,16 +982,16 @@ start cmd /c bitsadmin.exe /transfer "Downloading Update File" /download /priori
 
 for /f "tokens=* delims=" %%v in (version.txt) do set "version=%%v"
 
-if "%version%" NEQ "v1.4" (
+if "%version%" NEQ "v2.4" (
 echo. An update was found. Now updating........
 ::rd /s /q tmp
 mkdir tmp
-start cmd /c bitsadmin.exe /transfer "Downloading Updated SSLHELPER" /download /priority FOREGROUND %1 %2 "https://github.com/Johnng007/SSL-HELPER/raw/main/SSLHELPER.bat" "%cd%\tmp\SSLHELPER.bat"
+start cmd /c bitsadmin.exe /transfer "Downloading Updated SSLHELPER" /download /priority FOREGROUND %1 %2 "https://github.com/Johnng007/SSL-HELPER/raw/main/sslhelper.bat" "%cd%\tmp\sslhelper.bat"
 timeout 10
 
 echo. TIDYING MYSELF UP
 
-robocopy "%cd%\tmp" "%cd%" SSLHELPER.bat /move 
+robocopy "%cd%\tmp" "%cd%" sslhelper.bat /move 
 
 rd /s /q tmp
 
