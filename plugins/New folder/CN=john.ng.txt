@@ -1,0 +1,32 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211016211556
+Username: LAPTOP-EKPP5SP5\JOHN.NG
+RunAs User: LAPTOP-EKPP5SP5\JOHN.NG
+Configuration Name: 
+Machine: LAPTOP-EKPP5SP5 (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\JOHN.NG\Desktop\PROJECTS\SSL - CONVERTER\TEST\powershell\plugins\validitycheck1.ps1'
+Process ID: 13384
+PSVersion: 5.1.22000.65
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.65
+BuildVersion: 10.0.22000.65
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\JOHN.NG\Desktop\PROJECTS\SSL - CONVERTER\TEST\powershell\plugins\CN=john.ng.txt
+WARNING: Cert for site https://john.ng expires in 32 days [on 11/18/2021 08:12:33]
+NOTE: Measuring Threshold is 60 days.
+Cert name: CN=john.ng
+Cert public key: 3082010A0282010100E4FF83932DC070ED35EE1CCB15DE53F007BBDC9798366A0D152E36AA1EFF349D3C6CE5787D718CD565E2ACFE2DB05E0937AB2F37F1838DD4D09C96C5C366727A9B95B303426986D3614F303187A3BC732F1638AB95254C2FF32DE9C643E1BCB169A9DDE94A4C939BBEC1BEF8DF5FDB5D5B1188212AE2A8124AF062DB105B10A634760590AA185F5ABDC4AA3B942EB39B036619D97949E20790067EDFC78274331C71400107E64DD71811B3112BA8DF2F6D46D7D76D87F60FADEB965F7964B35EA11563A12450B0CEC7FDA1D21F6E2A29177E731FF140F2FD7463165811F3901492B4C0924C223E8B0FB9ACDF3D8B5D8A00DAAC1FC899B5D396A62076A65F32EF0203010001
+
+Cert serial number: 049737EBD36161F83A6FDFD145B79AB00954
+Cert thumbprint: 738337370E556BFF5C6F6CAD7C8072B6B35A1044
+Cert issuance date: 8/20/2021 8:12:34 AM
+Cert issuer: C=US, O=Let's Encrypt, CN=R3
+**********************
+Windows PowerShell transcript end
+End time: 20211016211556
+**********************
