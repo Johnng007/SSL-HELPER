@@ -45,7 +45,7 @@ This script makes use of JAVA Keytool in some modules, It assumes you have Java 
 NOTE: For now it doesnt matter if you have openssl in your environment variable, if its not in the script's working directory, the script would not run.
 
 ```bash
-openssl.exe | openssl.conf
+openssl.exe | openssl.conf | keytool.exe
 ```
 
 ## Usage
