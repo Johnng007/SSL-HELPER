@@ -84,7 +84,7 @@ call :print LOADING POWERSHELL PLUGIN
 echo. Loaded The SSL CERTIFICATE VALIDITY PLUGIN.
 echo. USAGE: ENTER A URL IN THE PROMPT BELOW TO CHECK ITS SSL VALIDITY!
 echo.
-Powershell.exe -executionpolicy remotesigned -File  %cd%\validitycheck.ps1
+Powershell.exe -executionpolicy remotesigned -File  %cd%\plugins\validitycheck.ps1
 
 call :print Exiting Plugin.
 echo.Press any key to continue . . .
@@ -100,7 +100,7 @@ echo. Loaded The SSL CERTIFICATE VALIDITY PLUGIN - MULTIPLE URL.
 echo. USAGE: ENTER A FILE NAME CONTAINING URLs IN THE PROMPT BELOW!
 echo.        RESULT WILL BE DISPLAYED ON THE SCREEN AND ALSO OUTPUTED TO A FILE.
 echo.
-Powershell.exe -executionpolicy remotesigned -File  %cd%\multiplevaliditycheck.ps1
+Powershell.exe -executionpolicy remotesigned -File  %cd%\plugins\multiplevaliditycheck.ps1
 
 call :print Exiting Plugin.
 echo.Press any key to continue . . .
@@ -117,7 +117,7 @@ echo. USAGE: ENTER URL WHEN PROMPTED BELOW e.g www.john.ng
 echo.
 
 
-powershell -command "& { . .\vulnanalysis.ps1; Test-SslProtocol }" 
+powershell -command "& { . .\plugins\vulnanalysis.ps1; Test-SslProtocol }" 
 
 call :print Exiting Plugin.
 echo.Press any key to continue . . .
@@ -134,7 +134,7 @@ echo. Running Check......
 echo.
 
 
-Powershell.exe -executionpolicy remotesigned -File  %cd%\servercipher.ps1
+Powershell.exe -executionpolicy remotesigned -File  %cd%\plugins\servercipher.ps1
 
 call :print Exiting Plugin.
 echo.Press any key to continue . . .
@@ -151,7 +151,7 @@ echo. Running the Fix
 echo.
 
 
-Powershell.exe -executionpolicy remotesigned -File  %cd%\servercipherfix.ps1 
+Powershell.exe -executionpolicy remotesigned -File  %cd%\plugins\servercipherfix.ps1 
 
 call :print Exiting Plugin.
 echo.Press any key to continue . . .
