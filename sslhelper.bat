@@ -2,7 +2,7 @@
 :: NAME     : SSL GENERATOR AND CONVERTER
 :: AUTHOR   : Ebuka John Onyejegbu.
 :: CONTACT  : onyejegbujohne@gmail.com
-:: VERSION  : 1.4.
+:: VERSION  : 2.4.
 :: PROJECT  : https://github.com/Johnng007/SSL-HELPER
 :: A cup of Coffee (-_-)   : bitcoin: bc1qhx2zvlvnevq3vvwjzpn04cjevl0w7ehfdzzvgw
 ::                         : https://www.buymeacoffee.com/ebuka
@@ -32,7 +32,7 @@ echo       "| (   ) || (      | |      | (      | (      | (\ (   ";
 echo       "| )   ( || (____/\| (____/\| )      | (____/\| ) \ \__";
 echo       "|/     \|(_______/(_______/|/       (_______/|/   \__/";
 echo       "                                                      ";  
-echo       "                                                  v1.4";
+echo       "                                                  v2.4";
 
 timeout 5
 
